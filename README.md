@@ -1,3 +1,7 @@
+# ingress-slack
+
+A small collection of hubot-slack scripts for Ingress teams
+
 ## link.js
 
 A hubot-slack script to calculate portal linkability, including:
@@ -20,9 +24,12 @@ A hubot-slack script to calculate portal linkability, including:
 
     bot link 88888888 2 la 1 vrla
 
+
 > P8 (88888888) with 2 link amps and 1 vrla can link 5,079.040 km
 
+
     bot link https://www.ingress.com/intel?ll=50.745399,25.319992&z=10&pls=50.745399,25.319992,49.810349,73.097933_49.810349,73.097933,29.965612,31.004011_29.965612,31.004011,50.745399,25.319992
+
 
 > Portal A: [https://www.ingress.com/intel?ll=50.745399,25.319992&z=17&pll=50.745399,25.319992](https://www.ingress.com/intel?ll=50.745399,25.319992&z=17&pll=50.745399,25.319992)   
 Portal B: [https://www.ingress.com/intel?ll=49.810349,73.097933&z=17&pll=49.810349,73.097933](https://www.ingress.com/intel?ll=49.810349,73.097933&z=17&pll=49.810349,73.097933)   
