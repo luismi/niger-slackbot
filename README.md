@@ -3,7 +3,7 @@
 A small collection of hubot-slack scripts for Ingress teams
 
  * cycle.js: displays checkpoint times
- * link.js: calculates portal linkability
+ * link.js: calculates portal linkability and optimal portal builds
  * mu.js: calculates MU required to win a cycle
  * passcode.js: generates bogus passcodes
 
