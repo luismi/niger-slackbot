@@ -3,6 +3,7 @@
 A small collection of hubot-slack scripts for Ingress teams
 
  * link.js: calculates portal linkability
+ * mu.js: calculates MU required to win a cycle
  * passcode.js: generates bogus passcodes
 
 To use, just drop the scripts you like into your hubot's scripts directory. If any dependencies
@@ -53,6 +54,30 @@ Build: P6 (88776666) with 1 link amp and 1 vrla
 Distance: 4,135.163 km   
 Agents Required: 5   
 Build: P7 (88888777) with 2 link amps and 1 vrla   
+
+## mu.js
+
+A hubot-slack script to calculates MU needed to win a cycle
+
+### Commands
+
+ * mu [ENL score] [RES score] [current checkpoint # (optional)]
+
+### Examples
+
+    mu 10k 20k
+
+> Current ENL score: 10,000   
+Current RES score: 20,000   
+Current checkpoint: #34   
+ENL needs 360,000 total MU to tie next checkpoint, assuming RES score doesn't change.
+
+    mu 45000 27000 28
+
+>Current ENL score: 45,000   
+Current RES score: 27,000   
+Current checkpoint: #28   
+RES needs 549,000 total MU to tie next checkpoint, assuming ENL score doesn't change.
 
 ## passcode.js
 
